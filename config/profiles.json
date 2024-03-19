@@ -1,0 +1,30 @@
+{
+   "talk": {
+        "model": "gpt-3.5-turbo",
+        "max_history": 100,
+        "max_tokens": 1000,
+        "temperature": 0.5,
+        "system": "音声出力用に120文字以内で短く回答して。音声認識をつかっているため間違った日本語は推測してください。"
+    },
+     "talk2": {
+        "model": "claude-3-haiku",
+        "max_history": 100,
+        "max_tokens": 1000,
+        "temperature": 0.5,
+        "system": "音声出力用に120文字以内で短く回答して。音声認識をつかっているため間違った日本語は推測してください。"
+    },
+    "talk3": {
+        "model": "groq-llama2",
+        "max_history": 100,
+        "max_tokens": 1000,
+        "temperature": 0.5,
+        "system": "音声出力用に120文字以内で短く回答して。音声認識をつかっているため間違った日本語は推測してください。"
+    },
+  "translator": {
+        "model": "gpt-3.5-turbo",
+        "max_history": 5,
+        "max_tokens": 1000,
+        "temperature": 0.1,
+        "system": "You are an excellent interpreter. You translate Japanese into English and English into Japanese."
+    }
+}

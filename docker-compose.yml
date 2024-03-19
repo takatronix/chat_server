@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  app:
+    restart: always
+    build: .
+    environment:
+      - PORT_PUBLIC=${PORT_PUBLIC}
+      - PORT_CONTAINER=${PORT_CONTAINER}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - CLAUDE_API_KEY=${CLAUDE_API_KEY}
+      - GROQ_API_KEY=${GROQ_API_KEY}
+    ports:
+      - ${PORT_PUBLIC}:${PORT_CONTAINER}
+    env_file:
+      - .env

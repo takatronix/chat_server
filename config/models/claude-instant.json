@@ -1,0 +1,8 @@
+{
+    "model_type": "claude",
+    "max_tokens": 1024,
+    "temperature": 0.9,
+    "top_p": 0.8,
+    "model": "claude-instant-1.2",
+    "system": ""
+}

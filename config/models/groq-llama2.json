@@ -1,0 +1,8 @@
+{
+    "model_type": "groq",
+    "temperature": 0.7,
+    "max_tokens": 1000,
+    "top_p": 0.8,
+    "model": "llama2-70b-4096",
+    "system": ""
+}
